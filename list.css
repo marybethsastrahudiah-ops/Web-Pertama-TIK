@@ -1,0 +1,92 @@
+li {
+    color:darkseagreen;
+    font-family: "elegantbloom";
+    font-size: 20px;
+}
+
+div.buah ol {
+    background: mistyrose;
+    border: 10px solid pink;
+    padding-left: 0;
+    list-style-position: inside;
+    width: 80%;
+}
+
+.buah ol li:last-child {
+    border-bottom: none;
+}
+
+div.buah ol li {
+    color: palevioletred;
+    border-bottom: 5px solid pink;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.buah .yay {
+    background-color: palegoldenrod;
+}
+
+
+
+div.lorem ul {
+    background:rgb(180, 221, 180);
+    border: 10px solid darkseagreen;
+    padding-left: 0;
+    list-style-position: inside;
+    width: 90%;
+}
+
+div.lorem ul li:last-child {
+    border-bottom: none;
+}
+
+div.lorem ul li {
+    color: seagreen;
+    border-bottom: 5px solid darkseagreen;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+
+
+.icon ol li i {
+    font-size: 20px;
+    color: rgb(201, 100, 186);
+    margin-right: 10px;
+}
+
+div.icon ol {
+    background:rgb(255, 199, 255);
+    border: 10px solid plum;
+    padding-left: 0;
+    list-style-position: inside;
+    width: 90%;
+}
+
+div.icon ol li:last-child {
+    border-bottom: none;
+}
+
+div.icon ol li {
+    color: rgb(210, 103, 210);
+    border-bottom: 5px solid plum;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+
+
+@font-face {
+    font-family: "elegantbloom";
+    src: url(elegant_bloom/Elegant\ Bloom.otf)
+}
